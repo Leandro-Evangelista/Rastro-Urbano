@@ -24,9 +24,11 @@ sobre-texto {
         line-height: 1.6;
       }
 
-body{
-    background-image: url('/imagems/loja.png');
+.foto{
+  width: 10% ;
+  height: 10%;
  
 }
+
       
     

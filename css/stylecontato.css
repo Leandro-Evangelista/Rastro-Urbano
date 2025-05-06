@@ -1,0 +1,7 @@
+.contato {
+    border: 1px solid black; /* Define uma borda */
+    padding: 20px;        /* Adiciona espaço interno */
+    width: 500px;       /* Define a largura da caixa */
+    margin: 20px;        /* Adiciona espaço externo */
+    background-color: #f0f0f0; /* Define a cor de fundo da caixa */
+}
