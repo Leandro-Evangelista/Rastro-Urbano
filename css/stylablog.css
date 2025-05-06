@@ -8,3 +8,8 @@ html, body {
 main {
   flex: 1; /* Faz o main crescer e empurrar o footer para baixo */
 }
+
+.img-menor {
+  max-height: 200px;
+  object-fit: cover;
+}
