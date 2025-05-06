@@ -3,41 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    <title>Rastro Urbano</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="/imagems/loja.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-      crossorigin="anonymous"
-    />
-    <title>Rastro Urbano</title>
-    <link rel="icon" href="/imagems/loja.png" class="roupa-ico" />
-    <link rel="stylesheet" href="/css/style.css" />
+      crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    
   </head>
   <body>
-    <nav class="menu">
-      <img src="/imagems/loja.png" alt="logo" class="logo" />
-      <ul>
-        <li><a href="/pages/loja.html">Loja</a></li>
-        <li><a href="/pages/sobre.html">Sobre a Marca</a></li>
-        <li><a href="/pages/colecoes.html">Coleções</a></li>
-        <li><a href="/pages/blog.html">Blog e Munral</a></li>
-        <li><a href="/pages/lojavirtual.html">Loja Virtual</a></li>
+    <!-- Menu de Navegação -->
+    <nav class="menu d-flex justify-content-between align-items-center p-3 bg-dark text-white">
+      <img src="/imagems/loja.png" alt="Logo Rastro Urbano" class="logo" sizes="64x64" />
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-white" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/pages/sobre.html">Sobre a Marca</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/pages/colecoes.html">Coleções</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/pages/blog.html">Blog e Mural</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/pages/lojavirtual.html">Loja Virtual</a></li>
       </ul>
     </nav>
 
-    <div class="login-container">
-      <h2>Login</h2>
-      <form action="login.php" method="POST">
-        <label for="username">Usuário</label>
-        <input type="text" id="username" name="username" required />
+  
+<main>
+</main>
 
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password" required />
 
-        <input type="submit" value="Entrar" />
-      </form>
-    </div>
-    
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2025 Rastro Urbano. Todos os direitos reservados.</p>
+      <p>
+        <a href="https://instagram.com" class="text-white mx-2">Instagram</a> |
+        <a href="https://facebook.com" class="text-white mx-2">Facebook</a> |
+        <a href="mailto:contato@rastrourbano.com" class="text-white mx-2">E-mail</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qzGv0Kh3F2Lhq5KJ9A/EFzZx6UnKMTkJljhD4G09AxXbZ9UFLhA1RyOZ6w2M9Zzj"
+      crossorigin="anonymous"></script>
   </body>
 </html>
+
